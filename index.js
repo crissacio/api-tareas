@@ -96,6 +96,4 @@ app.delete('/tareas/:id', verificarToken, async (req, res) => {
     res.status(200).json({ mensaje: 'Tarea eliminada' });
 });
 
-app.listen(3000, () => {
-    console.log('Servidor escuchando en el puerto 3000');
-});
+module.exports = app;
