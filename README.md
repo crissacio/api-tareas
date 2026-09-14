@@ -101,6 +101,12 @@ npm test
 
 Los tests cubren: consulta de tareas, registro de usuarios, y el flujo completo de login + creación de tarea con token.
 
+## API en producción
+
+https://api-tareas-t25g.onrender.com
+
+> Nota: Render puede tardar unos segundos en "despertar" el servicio si no recibió tráfico reciente (plan gratuito).
+
 ## Estado del proyecto
 
 CRUD completo, autenticación con JWT y tests automatizados funcionando. Próximo paso: deploy a producción.
